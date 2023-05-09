@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./AdDesigner";
+import "./AdDesigner.css";
 
 export function AdDesigner()  {
     const [flavor, setFlavor] = useState('Vanilla');
@@ -7,7 +7,7 @@ export function AdDesigner()  {
     const [fontSize, setFontSize] = useState(44);
 
     const styles = {
-        fontSize: `${fontSize}px`
+        fontSize: `${fontSize}px`        
     }
 
     return (

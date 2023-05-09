@@ -4,5 +4,7 @@
     padding: 20px;
     font-size: medium;
     color:blue;
-    border-bottom: 3px solid rgb(218, 212, 212);     
+    box-shadow: inset;
+    border-bottom: 5px solid lightgray;
 }
+

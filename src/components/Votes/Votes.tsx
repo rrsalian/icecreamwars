@@ -21,24 +21,28 @@ export function Votes() {
             <button onClick={() => setStrawberry(strawberry + 1)}>strawberry</button>
 
             <div>
-                <label>Vanilla  {vanilla} {vanillaPerc} </label>
+                <label>Vanilla: {vanilla} ({vanillaPerc})% </label>
                 <div style={ {
+                    height: 20,
                     width: `${vanillaPerc}%`
-                }} className="Progress vanilla"></div>
+                }} className="progress vanilla"></div>
             </div>
 
             <div>
-                <label>Chocolate  {chocolate} {ChocolatePerc} </label>
+                <label>Chocolate: {chocolate} ({ChocolatePerc})% </label>
                 <div style={ {
+                    border: 10,
+                    height: 20,
                     width: `${ChocolatePerc}%`
-                }} className="Progress chocolate"></div>
+                }} className="progress chocolate"></div>
             </div>
 
             <div>
-                <label>Strawberry  {strawberry} {strawberryPerc} </label>
+                <label>Strawberry: {strawberry} ({strawberryPerc})% </label>
                 <div style={ {
+                    height: 20,
                     width: `${strawberryPerc}%`
-                }} className="Progress strawberry"></div>
+                }} className="progress strawberry"></div>
             </div>
         </div>
     )
