@@ -11,7 +11,7 @@ export function Home() {
     return (
         <div>
             <Header></Header>
-            <img className="img" alt="Scenicmage" src="./background.jpg"></img>
+            {/*<img className="img" alt="Scenicmage" src="./background.jpg"></img> */}
             <ContactForm onAdd={(newContact: Contact) => setContacts([...contacts, newContact])}></ContactForm>
             <ContactList onUpdate={() => {}} onDelete={() => {}} contacts={contacts}></ContactList>
         </div>

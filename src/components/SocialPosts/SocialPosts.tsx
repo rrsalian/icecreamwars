@@ -47,7 +47,7 @@ export function SocialPosts () {
                 isOpen={modalIsOpen}
                 onRequestClose={closeModal}
                 style={customStyles}
-                contentLabel="Example Modal">    
+                contentLabel="Example Modal">  
         
                 <PostForm onClose={() => setIsOpen(false)} onSubmitForm={(newPost: Post) => setPosts([...posts, newPost])}></PostForm>
             </Modal>
